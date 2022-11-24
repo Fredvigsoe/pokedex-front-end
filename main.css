@@ -1,0 +1,251 @@
+/* KÆMPE KAOS OG INGEN ORDEN I MIN CSS */
+body {
+    background-size: cover;
+    background-color: black;
+}
+#filterbytypespan {
+    color: white;
+    margin: 10px
+}
+.searchBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.searchBox input {
+    border-radius: 8px 0 0 8px;
+    border: 0;
+    outline: none;
+    height: 36px;
+    padding: 4px 16px;
+    background-color: white;
+    color: #000;
+}
+
+.searchBox button {
+    border-radius: 0 8px 8px 0;
+    border: 0;
+    height: 44px;
+    padding: 4px 16px;
+    background-color: white;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+
+}
+#fullsitediv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+h1 {
+    display: flex;
+    color: yellow;
+    margin: 15px;
+    background-color: black;
+    padding: 15px;
+    justify-content: center;
+}
+ul {
+    list-style-type: none;
+    paddin: 0;
+    margin: 2;
+    flex_direction: column;
+}
+li:hover {
+    background-color: orange;
+}
+ul li {
+    border-radius: 8px;
+    border: black 1px solid;
+    padding: 12px;
+    margin-bottom: 12px;
+    width: 140px;
+    background-color: white;
+
+
+}
+#boxmedknapper {
+    display: flex;
+    flex-direction: column;
+
+}
+#pokedexKnapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#allpokedex {
+    justify-content: center;
+    width: 500px;
+    height: 600px;
+    display: grid;
+    margin: 0 auto;
+    margin-top: 100px;
+    overflow-y: auto;
+    color: white;
+}
+#box {
+    width: 500px;
+    height: 600px;
+    border: 5px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: url("./pokedex.jpg") no-repeat;
+    background-size: cover
+
+
+}
+#pokestats {
+    width: 250px;
+    height: 600px;
+    font-size: 18px;
+    overflow-y: auto;
+}
+#pokelist {
+    width: 250px;
+    height: 600px;
+    font-size: 18px;
+    overflow-y: auto;
+}
+#pokeheader {
+    border: 10px black;
+    border-radius: 10px;
+
+}
+
+#pokepicture {
+    border: 10px black;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 15px;
+}
+.navnfradex {
+    color: white;
+    align-items: center;
+    margin: 10px;
+    margin-left: 15px;
+}
+.statsfradex {
+    color: white;
+    margin: 10px;
+    margin-left: 15px;
+}
+
+
+
+
+
+/* TYPES OG DERES BOXES */
+#types {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.type {
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+
+.normal {
+    background-color: beige;
+    color: black;
+}
+
+.fire {
+    background-color: orange;
+    color: white;
+}
+
+.grass {
+    background-color: green;
+    color: white;
+}
+
+.water {
+    background-color: blue;
+    color: white;
+}
+
+.ice {
+    background-color: lightblue;
+    color: black;
+}
+
+.electric {
+    background-color: gold;
+    color: black;
+}
+
+.fighting {
+    background-color: darkred;
+    color: white;
+}
+
+.flying {
+    background-color: skyblue;
+    color: black;
+}
+
+.bug {
+    background-color: yellowgreen;
+    color: white;
+}
+
+.ghost {
+    background-color: purple;
+    color: white;
+}
+
+.rock {
+    background-color: sienna;
+    color: white;
+}
+
+.ground {
+    background-color: burlywood;
+    color: black;
+}
+
+.steel {
+    background-color: silver;
+    color: black;
+}
+
+.dark {
+    background-color: darkgray;
+    color: white;
+}
+
+.psychic {
+    background-color: palevioletred;
+    color: white;
+}
+
+.fairy {
+    background-color: pink;
+    color: black;
+}
+
+.dragon {
+    background-color: teal;
+    color: white;
+}
+
+.poison {
+    background-color: darkviolet;
+    color: white;
+}
+
